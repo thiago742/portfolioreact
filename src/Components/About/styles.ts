@@ -10,6 +10,10 @@ export const AboutSection = styled.section`
   background: linear-gradient(135deg, #1e1e1e, #121212);
   color: white;
   height: 100vh;
+
+  @media (max-width: 768px) {
+    display: block;
+  }
 `
 
 export const Title = styled.h2`
@@ -19,7 +23,7 @@ export const Title = styled.h2`
 `
 
 export const Text = styled.p`
-  max-width: 500px;
+  max-width: 600px;
   font-size: 18px;
   line-height: 1.6;
   color: #ddd;
@@ -37,4 +41,11 @@ export const ImageContainer = styled.div`
   background-image: url(${Foto});
   background-size: cover;
   background-position: center;
+  margin-left: 100px;
+
+  @media (max-width: 768px) {
+    display: block;
+    margin: 0 auto;
+    margin-top: 24px;
+  }
 `

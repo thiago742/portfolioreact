@@ -31,7 +31,10 @@ const Projects = () => {
           <TechItem>MongoDB</TechItem>
           <TechItem>PostgreSQL</TechItem>
         </TechList>
-        <RepoLink href="#" target="_blank">
+        <RepoLink
+          href="https://github.com/thiago742/memelandia"
+          target="_blank"
+        >
           🔗 Ver Repositório
         </RepoLink>
       </ProjectCard>
@@ -39,23 +42,21 @@ const Projects = () => {
       <ProjectCard>
         <ProjectTitle>eFood Restaurantes</ProjectTitle>
         <ProjectDescription>
-          Plataforma de e-commerce desenvolvida com React e integração de
-          pagamentos.
+          Plataforma de e-commerce desenvolvida com React e com conteúdo
+          consumido por API.
         </ProjectDescription>
         <TechList>
           <TechItem>React</TechItem>
           <TechItem>TypeScript</TechItem>
           <TechItem>Styled Components</TechItem>
           <TechItem>Node.js</TechItem>
-          <TechItem>Express</TechItem>
-          <TechItem>MongoDB Atlas</TechItem>
-          <TechItem>Firebase</TechItem>
-          <TechItem>Stripe</TechItem>
+          <TechItem>Redux</TechItem>
+          <TechItem>Redux ToolKit Query</TechItem>
         </TechList>
-        <RepoLink href="#" target="_blank">
+        <RepoLink href="https://github.com/thiago742/efood-app" target="_blank">
           🔗Ver Repositório /{' '}
         </RepoLink>
-        <RepoLink href="#" target="_blank">
+        <RepoLink href="https://efood-app.vercel.app" target="_blank">
           🔗Acessar o site
         </RepoLink>
       </ProjectCard>

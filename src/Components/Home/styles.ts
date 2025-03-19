@@ -43,12 +43,21 @@ export const TypingText = styled.p`
   border-right: 2px solid white;
   width: fit-content;
   animation: ${typing} 3s steps(30, end), ${blink} 0.75s step-end infinite;
+
+  @media (max-width: 768px) {
+    max-width: 300px;
+  }
 `
 
 export const TechList = styled.div`
   display: flex;
   gap: 15px;
   margin-top: 20px;
+
+  @media (max-width: 768px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 `
 
 export const TechItem = styled.span`

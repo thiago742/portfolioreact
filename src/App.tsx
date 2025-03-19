@@ -5,13 +5,11 @@ import Navigation from './Components/Navigation'
 
 function App() {
   return (
-    <>
+    <BrowserRouter>
+      <GlobalCss />
       <Navigation />
-      <BrowserRouter>
-        <GlobalCss />
-        <Rotas />
-      </BrowserRouter>
-    </>
+      <Rotas />
+    </BrowserRouter>
   )
 }
 

@@ -5,6 +5,11 @@ export const ProjectsSection = styled.section`
   background: #121212;
   color: white;
   text-align: center;
+  height: 100vh;
+
+  @media (max-width: 768px) {
+    height: 100%;
+  }
 `
 
 export const Title = styled.h2`

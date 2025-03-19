@@ -6,9 +6,9 @@ const About = () => {
       <div>
         <Title>Quem sou eu?</Title>
         <Text>
-          Sou <Highlight>Thiago Martins</Highlight>, Desenvolvedor Full Stack
-          Java com experiência em construção de sistemas escaláveis e
-          eficientes. Minha stack inclui{' '}
+          Sou <Highlight>Thiago Martins</Highlight>, um Desenvolvedor Full Stack
+          Java, brasileiro com 19 anos, com experiência em construção de
+          sistemas escaláveis e eficientes. Minha stack inclui{' '}
           <Highlight>Java, Spring Boot, React, MongoDB e Docker</Highlight>.
           Sempre busco aprimorar minhas habilidades para entregar soluções bem
           estruturadas.
