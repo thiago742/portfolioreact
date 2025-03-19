@@ -60,7 +60,7 @@ export const StyledMobileNavLink = styled(NavLink)`
 
 export const SlidingBackground = styled.div`
   position: absolute;
-  bottom: 0; // Corrigido de 'bottom: 1' para 'bottom: 0'
+  bottom: 1; // Corrigido de 'bottom: 1' para 'bottom: 0'
   left: 0;
   height: 40px;
   width: 100px;
