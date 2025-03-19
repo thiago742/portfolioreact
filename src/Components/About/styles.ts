@@ -1,8 +1,8 @@
 import styled from 'styled-components'
+import Foto from '../../assets/thiago.jpeg' // Caminho correto
 
 export const AboutSection = styled.section`
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -19,7 +19,7 @@ export const Title = styled.h2`
 `
 
 export const Text = styled.p`
-  max-width: 800px;
+  max-width: 500px;
   font-size: 18px;
   line-height: 1.6;
   color: #ddd;
@@ -28,4 +28,13 @@ export const Text = styled.p`
 export const Highlight = styled.span`
   color: #facc15;
   font-weight: bold;
+`
+
+export const ImageContainer = styled.div`
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-image: url(${Foto});
+  background-size: cover;
+  background-position: center;
 `
