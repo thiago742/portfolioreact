@@ -17,18 +17,20 @@ const Skills = () => {
         <SkillList>
           <SkillItem>Java</SkillItem>
           <SkillItem>Spring Boot</SkillItem>
-          <SkillItem>JPA</SkillItem>
-          <SkillItem>RabbitMQ</SkillItem>
-          <SkillItem>Kafka</SkillItem>
+          <SkillItem>Hibernate/JPA</SkillItem>
+          <SkillItem>Jakarta EE</SkillItem>
+          <SkillItem>POO</SkillItem>
+          <SkillItem>Lambda</SkillItem>
         </SkillList>
       </SkillCategory>
 
       <SkillCategory>
-        <CategoryTitle>Frontend</CategoryTitle>
+        <CategoryTitle>Frontend Avançado</CategoryTitle>
         <SkillList>
           <SkillItem>React</SkillItem>
           <SkillItem>TypeScript</SkillItem>
           <SkillItem>Styled Components</SkillItem>
+          <SkillItem>Redux</SkillItem>
         </SkillList>
       </SkillCategory>
 
@@ -38,6 +40,16 @@ const Skills = () => {
           <SkillItem>MongoDB</SkillItem>
           <SkillItem>PostgreSQL</SkillItem>
           <SkillItem>MySQL</SkillItem>
+          <SkillItem>Oracle</SkillItem>
+        </SkillList>
+      </SkillCategory>
+
+      <SkillCategory>
+        <CategoryTitle>Arquitetura e Boas práticas</CategoryTitle>
+        <SkillList>
+          <SkillItem>JUnit</SkillItem>
+          <SkillItem>Singleton, Factory, Repository, DTO, Service</SkillItem>
+          <SkillItem>API Gateway, Service Discovery</SkillItem>
         </SkillList>
       </SkillCategory>
 
@@ -45,8 +57,6 @@ const Skills = () => {
         <CategoryTitle>DevOps</CategoryTitle>
         <SkillList>
           <SkillItem>Docker</SkillItem>
-          <SkillItem>Kubernetes</SkillItem>
-          <SkillItem>CI/CD</SkillItem>
         </SkillList>
       </SkillCategory>
       <Footer />

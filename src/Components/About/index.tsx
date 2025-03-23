@@ -8,19 +8,17 @@ const About = () => {
         <Title>Quem sou eu?</Title>
         <Text>
           Sou <Highlight>Thiago Martins</Highlight>, um Desenvolvedor Full Stack
-          Java, brasileiro com 19 anos, técnico em administração formado pela
-          ETEC, e cursando o terceiro semestre de
+          Java, brasileiro com 19 anos, técnico em{' '}
+          <Highlight>Administração</Highlight> formado pela ETEC, e cursando o
+          terceiro semestre de
           <Highlight> Análise e Desenvolvimento de Sistemas</Highlight> na FIAP.
-          e Sempre busco aprimorar minhas habilidades para entregar soluções bem
-          estruturadas.
         </Text>
         <Text>
-          Tenho experiência com{' '}
-          <Highlight>
-            arquitetura de microsserviços, mensageria assíncrona{' '}
-          </Highlight>
-          e desenvolvimento frontend e backend. Meu foco é criar aplicações de
-          alta qualidade que resolvem problemas reais.
+          No geral, tenho experiência com{' '}
+          <Highlight>React e Spring Boot</Highlight>, conhecendo todo o processo
+          desde o planejamento de arquitetura até a produção com o cliente
+          final. Meu foco é criar aplicações de alta qualidade que resolvem
+          problemas reais.
         </Text>
       </div>
       <ImageContainer />

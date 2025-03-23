@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const ContactSection = styled.section`
   padding: 80px 20px;
-  background: #121212;
+  background: linear-gradient(135deg, #1e1e1e, #121212);
   color: white;
   text-align: center;
   height: 100vh;
