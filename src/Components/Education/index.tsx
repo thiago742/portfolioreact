@@ -58,6 +58,30 @@ const Education = () => {
           Qualificação Profissional em Análise de Sistemas e Prototipagem Web
         </Description>
       </EducationCard>
+
+      <EducationCard>
+        <CourseTitle>Técnico em Administração</CourseTitle>
+        <Institution>ETEC - Professora Luzia Maria Machado</Institution>
+        <Period>Concluído em 2023</Period>
+        <Description>
+          Execução de rotinas administrativas: controle de materiais,
+          acompanhamento de níveis de eficiência e produtividade, e atendimento
+          a clientes. Participação nos planejamentos estratégico, tático e
+          operacional: colaboração na definição de metas e estratégias
+          empresariais. Atuação em recursos humanos: intermediação de
+          mão-de-obra para colocação e recolocação, além de auxiliar em
+          processos de contratação e demissão. Auxílio nas áreas de compras e
+          contabilidade: apoio na gestão de aquisições e no setor contábil.
+          Assessoria na área de vendas: intercâmbio de mercadorias e serviços,
+          execução de atividades nas áreas fiscal e financeira. Utilização de
+          ferramentas de informática básica: aplicação de softwares e
+          tecnologias para otimizar processos administrativos.
+        </Description>
+        <Institution>Certificações Obtidas no Curso: </Institution>
+        <Description>
+          Certificado de Habilitação Profissional de Técnico em Administração.
+        </Description>
+      </EducationCard>
       <Footer />
     </EducationSection>
   )
