@@ -1,3 +1,4 @@
+import Footer from '../Footer'
 import {
   ProjectsSection,
   ProjectCard,
@@ -78,6 +79,7 @@ const Projects = () => {
           🔗 Ver Repositório
         </RepoLink>
       </ProjectCard>
+      <Footer />
     </ProjectsSection>
   )
 }

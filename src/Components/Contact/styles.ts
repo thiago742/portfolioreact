@@ -11,7 +11,7 @@ export const ContactSection = styled.section`
 export const Title = styled.h2`
   font-size: 36px;
   margin-bottom: 20px;
-  color: #facc15;
+  color: #ffce2e;
 `
 
 export const ContactText = styled.p`
@@ -31,14 +31,14 @@ export const ContactItem = styled.a`
   background: #1e1e1e;
   padding: 15px 20px;
   border-radius: 8px;
-  color: #facc15;
+  color: #ffce2e;
   font-size: 18px;
   font-weight: bold;
   text-decoration: none;
   transition: 0.3s;
 
   &:hover {
-    background: #facc15;
+    background: #ffce2e;
     color: #121212;
   }
 `

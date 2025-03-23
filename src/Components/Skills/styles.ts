@@ -11,7 +11,7 @@ export const SkillsSection = styled.section`
 export const Title = styled.h2`
   font-size: 36px;
   margin-bottom: 20px;
-  color: #facc15;
+  color: #ffce2e;
 `
 
 export const SkillCategory = styled.div`
@@ -21,7 +21,7 @@ export const SkillCategory = styled.div`
 export const CategoryTitle = styled.h3`
   font-size: 24px;
   margin-bottom: 10px;
-  color: #facc15;
+  color: #ffce2e;
 `
 
 export const SkillList = styled.div`

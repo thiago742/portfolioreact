@@ -25,7 +25,7 @@ export const StyledNavLink = styled(NavLink)`
   transition: color 0.3s ease;
 
   &:hover {
-    color: #facc15;
+    color: #ffce2e;
   }
 
   &.active {
@@ -46,7 +46,7 @@ export const StyledMobileNavLink = styled(NavLink)`
   transition: color 0.3s ease;
 
   &:hover {
-    color: #facc15;
+    color: #ffce2e;
   }
 
   &.active {
@@ -64,7 +64,7 @@ export const SlidingBackground = styled.div`
   left: 0;
   height: 40px;
   width: 100px;
-  background: #facc15;
+  background: #ffce2e;
   border-radius: 8px;
   transition: all 0.3s ease;
   z-index: -1;

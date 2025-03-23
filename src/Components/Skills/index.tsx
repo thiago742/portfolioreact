@@ -1,3 +1,4 @@
+import Footer from '../Footer'
 import {
   SkillsSection,
   Title,
@@ -48,6 +49,7 @@ const Skills = () => {
           <SkillItem>CI/CD</SkillItem>
         </SkillList>
       </SkillCategory>
+      <Footer />
     </SkillsSection>
   )
 }

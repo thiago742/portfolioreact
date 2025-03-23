@@ -31,7 +31,7 @@ export const Title = styled.h1`
 
 export const Subtitle = styled.p`
   font-size: 20px;
-  color: #facc15;
+  color: #ffce2e;
   margin-bottom: 20px;
 `
 
@@ -70,7 +70,7 @@ export const TechItem = styled.span`
 export const Button = styled.a`
   margin-top: 20px;
   padding: 10px 20px;
-  background: #facc15;
+  background: #ffce2e;
   color: black;
   text-decoration: none;
   font-weight: bold;

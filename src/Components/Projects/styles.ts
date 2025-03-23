@@ -6,6 +6,17 @@ export const ProjectsSection = styled.section`
   color: white;
   text-align: center;
   height: 100vh;
+  overflow-y: scroll;
+
+  /* Esconde a barra de rolagem no Chrome, Safari, Opera e Edge (WebKit) */
+  ::-webkit-scrollbar {
+    display: none; /* Remove a barra de rolagem visualmente */
+  }
+
+  /* Esconde a barra de rolagem no Firefox e Edge (non-WebKit) */
+
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Edge (legado) */
 
   @media (max-width: 768px) {
     height: 100%;
@@ -15,7 +26,7 @@ export const ProjectsSection = styled.section`
 export const Title = styled.h2`
   font-size: 36px;
   margin-bottom: 20px;
-  color: #facc15;
+  color: #ffce2e;
 `
 
 export const ProjectCard = styled.div`
@@ -30,7 +41,7 @@ export const ProjectCard = styled.div`
 
 export const ProjectTitle = styled.h3`
   font-size: 24px;
-  color: #facc15;
+  color: #ffce2e;
 `
 
 export const ProjectDescription = styled.p`
@@ -57,7 +68,7 @@ export const TechItem = styled.li`
 export const RepoLink = styled.a`
   display: inline-block;
   margin-top: 10px;
-  color: #facc15;
+  color: #ffce2e;
   font-weight: bold;
   text-decoration: none;
   transition: 0.3s;

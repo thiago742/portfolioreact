@@ -1,3 +1,4 @@
+import Footer from '../Footer'
 import {
   EducationSection,
   CourseTitle,
@@ -57,6 +58,7 @@ const Education = () => {
           Qualificação Profissional em Análise de Sistemas e Prototipagem Web
         </Description>
       </EducationCard>
+      <Footer />
     </EducationSection>
   )
 }

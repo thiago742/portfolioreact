@@ -19,7 +19,7 @@ export const AboutSection = styled.section`
 export const Title = styled.h2`
   font-size: 36px;
   margin-bottom: 20px;
-  color: #facc15;
+  color: #ffce2e;
 `
 
 export const Text = styled.p`
@@ -30,7 +30,7 @@ export const Text = styled.p`
 `
 
 export const Highlight = styled.span`
-  color: #facc15;
+  color: #ffce2e;
   font-weight: bold;
 `
 

@@ -1,3 +1,4 @@
+import Footer from '../Footer'
 import {
   Button,
   HomeSection,
@@ -41,6 +42,7 @@ const Home = () => {
         <TechItem>Docker</TechItem>
       </TechList>
       <Button href="sobre">Saiba mais</Button>
+      <Footer />
     </HomeSection>
   )
 }

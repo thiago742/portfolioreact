@@ -1,3 +1,4 @@
+import Footer from '../Footer'
 import {
   ContactSection,
   ContactItem,
@@ -30,6 +31,7 @@ const Contact = () => {
           📱 WhatsApp
         </ContactItem>
       </ContactList>
+      <Footer />
     </ContactSection>
   )
 }

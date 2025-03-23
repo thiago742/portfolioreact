@@ -1,3 +1,4 @@
+import Footer from '../Footer'
 import { AboutSection, Title, Text, Highlight, ImageContainer } from './styles'
 
 const About = () => {
@@ -7,10 +8,10 @@ const About = () => {
         <Title>Quem sou eu?</Title>
         <Text>
           Sou <Highlight>Thiago Martins</Highlight>, um Desenvolvedor Full Stack
-          Java, brasileiro com 19 anos, com experiência em construção de
-          sistemas escaláveis e eficientes. Minha stack inclui{' '}
-          <Highlight>Java, Spring Boot, React, MongoDB e Docker</Highlight>.
-          Sempre busco aprimorar minhas habilidades para entregar soluções bem
+          Java, brasileiro com 19 anos, técnico em administração formado pela
+          ETEC, e cursando o terceiro semestre de
+          <Highlight> Análise e Desenvolvimento de Sistemas</Highlight> na FIAP.
+          e Sempre busco aprimorar minhas habilidades para entregar soluções bem
           estruturadas.
         </Text>
         <Text>
@@ -23,6 +24,7 @@ const About = () => {
         </Text>
       </div>
       <ImageContainer />
+      <Footer />
     </AboutSection>
   )
 }
