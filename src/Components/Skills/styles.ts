@@ -6,6 +6,10 @@ export const SkillsSection = styled.section`
   color: white;
   text-align: center;
   height: 100vh;
+
+  @media (max-width: 768px) {
+    height: 100%;
+  }
 `
 
 export const Title = styled.h2`

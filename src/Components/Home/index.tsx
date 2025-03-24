@@ -14,7 +14,7 @@ const Home = () => {
   const texts = [
     'Desenvolvedor Full Stack Java',
     'Desenvolvendo tecnologia que faz a diferença.',
-    'Código limpo, eficiente e focado em resolver problemas de verdade.'
+    'Código limpo, eficiente e focado em resolver problemas.'
   ]
 
   const [index, setIndex] = useState(0)

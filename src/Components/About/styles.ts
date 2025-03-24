@@ -13,6 +13,7 @@ export const AboutSection = styled.section`
 
   @media (max-width: 768px) {
     display: block;
+    height: 100%;
   }
 `
 
