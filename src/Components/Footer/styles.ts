@@ -9,6 +9,7 @@ export const Container = styled.div`
   position: fixed;
   bottom: 0;
   background: #121212;
+  z-index: 1;
 `
 
 export const Text = styled.p`

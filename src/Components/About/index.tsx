@@ -9,8 +9,8 @@ const About = () => {
         <Text>
           Sou <Highlight>Thiago Martins</Highlight>, um Desenvolvedor Full Stack
           Java, brasileiro com 19 anos, técnico em{' '}
-          <Highlight>Administração</Highlight> formado pela ETEC, e cursando o
-          terceiro semestre de
+          <Highlight>Administração</Highlight> formado pela ETEC, sou bolsista
+          PROUNI cursando o terceiro semestre de
           <Highlight> Análise e Desenvolvimento de Sistemas</Highlight> na FIAP.
         </Text>
         <Text>
