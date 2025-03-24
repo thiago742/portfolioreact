@@ -54,9 +54,7 @@ const Education = () => {
           soluções complexas.
         </Description>
         <Institution>Certificações Obtidas no Curso: </Institution>
-        <Description>
-          Qualificação Profissional em Análise de Sistemas e Prototipagem Web
-        </Description>
+        <Description>Profissão: Desenvolvedor Full Stack Java</Description>
       </EducationCard>
 
       <EducationCard>
