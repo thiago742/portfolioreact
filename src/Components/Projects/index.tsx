@@ -16,10 +16,11 @@ const Projects = () => {
       <Title>Meus Projetos</Title>
 
       <ProjectCard>
-        <ProjectTitle>Memelandia</ProjectTitle>
+        <ProjectTitle>Memelandia (Em desenvolvimento)</ProjectTitle>
         <ProjectDescription>
           Desmembramento de um monólito em microsserviços, implementando
-          comunicação assíncrona e API Gateway.
+          comunicação assíncrona e API Gateway. (Futuro app Full Stack de
+          stickers para Whatsapp)
         </ProjectDescription>
         <TechList>
           <TechItem>Java</TechItem>
